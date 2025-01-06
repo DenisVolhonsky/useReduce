@@ -1,6 +1,6 @@
 import { useEffect, useReducer, useState } from "react";
 
-const FETCH_INIT = " FETCH_INIT";
+const FETCH_INIT = "FETCH_INIT";
 const FETCH_SUCCESS = "FETCH_SUCCESS";
 const FETCH_FAILURE = "FETCH_SUCCESS";
 const FILTERED_DATA = "FILTERED_DATA";
@@ -33,7 +33,7 @@ const reducer = (state, action) => {
         ),
       };
     default:
-      throw new Error(`Unkoun action type: ${action.type}`);
+      throw new Error(`Ukтoun action type: ${action.type}`);
   }
 };
 
